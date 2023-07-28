@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# React Redux WebApp with CRUD Operations, Pagination, Sorting, and Searching
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1728" alt="Screenshot 2023-07-28 at 6 20 30 PM" src="https://github.com/Hemang-Byjus/classico/assets/124559131/726d8aeb-188e-4778-8718-c72f11ea1c98">
 
-## Available Scripts
 
-In the project directory, you can run:
+This web application is built using React, Redux, JavaScript, HTML, and CSS, and it leverages Redux Saga as middleware for handling asynchronous tasks. The app fetches data from the JSON Placeholder API to display posts and card data. It offers various features such as CRUD operations, pagination, sorting, and searching, providing users with a seamless experience.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **CRUD Operations:** Users can perform Create, Read, Update, and Delete operations on posts and cards data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Pagination:** The app implements pagination, allowing users to navigate through a large dataset efficiently.
 
-### `npm test`
+3. **Sorting:** Users can sort the displayed data based on different criteria, enhancing data exploration.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Searching:** The application facilitates searching for specific posts or cards, making it easier to find relevant information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this web application locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository to your local machine.
+   ```
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory.
+   ```
+   cd your-repo
+   ```
 
-### `npm run eject`
+3. Install the dependencies using npm (Node Package Manager).
+   ```
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server.
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open your web browser and visit `http://localhost:3000` to view the web app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The following dependencies were used in the project:
 
-## Learn More
+- React
+- Redux
+- Redux Saga
+- Axios (for making API requests)
+- Other necessary libraries for styling and component handling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## API Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This web app uses the [JSON Placeholder API](https://jsonplaceholder.typicode.com/) to fetch posts and card data. Make sure you have an active internet connection for the data to load successfully.
