@@ -1,0 +1,50 @@
+.about{
+    margin-top: 12vh;
+    font-family:sans-serif;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin:20px;
+    border: solid black 1px;
+}
+.resume{
+    margin:15px;
+}
+.content a{
+    text-decoration: none;
+    color: rgba(53, 53, 197, 0.742);
+    margin-left: 10px;
+}
+.contact{
+    margin-top:0px;
+}
+.hr{
+    margin-top: 5px;
+}
+.education{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.location{
+    margin-top: 0px;
+}
+.degree{
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.profiles{
+    margin-top: 10px;
+}
+.profileSites{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right:10px;
+   margin-top: 10px;
+
+}
+.projectDescription{
+    margin-top: 15px;
+}

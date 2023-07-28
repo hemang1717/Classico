@@ -1,0 +1,78 @@
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.blogHeading{
+    margin-top: 20px;
+}
+.blogItems{
+    height: 50px;
+    width: 80vw;
+    margin-top:20px;
+}
+.blogData{
+    margin:30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF3E2;
+    border-radius: 50px;
+}
+.addBlogButton{
+    background-color: #555555;
+    border: none;
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 40px;
+    position: fixed;
+    z-index: 1;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.blogsPagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginationButton{
+    margin: 20px;
+    height: 40px;
+    width: 80px;
+    background-color: #555555;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.prevDisable{
+    pointer-events: none;
+}
+.nextDisable{
+    pointer-events: none;
+}
+.filterOptions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.searchBar{
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+    margin: 0px 100px 0px 30px;
+}
+.sortSelect{
+    height: 30px;
+    margin:20px 20px 0px 10px;
+}
+#sorting{
+    width: 120px;
+    height: 30px;
+}
